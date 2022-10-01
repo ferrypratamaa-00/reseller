@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="title" content="" />
+    <meta name="author" content="" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="user-agent" content="navigator.userAgent, navigator.appVersion, and navigator.platform">
+
+    <link rel=" icon" type="image/x-icon" href="" />
+    <link rel="icon" type="image/x-icon" href="" />
+    <title>10 M Akademi</title>
+
+    <!-- for css -->
+
+    <!-- for bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- for js -->
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <style>
+        .icon-100 {
+            max-width: 100px;
+        }
+
+        .fsc-1 {
+            font-size: calc(1.8rem + 1.9vw) !important;
+        }
+
+        .fsc-2 {
+            font-size: calc(1.4rem + 1.7vw) !important;
+        }
+
+        .fwc-600 {
+            font-weight: 400;
+        }
+
+        .txtc-dark {
+            color: #707070;
+        }
+
+        .txtc-darked {
+            color: #272727;
+        }
+
+        .bgc-dark {
+            background-color: #272727;
+        }
+
+        .btnc-green {
+            color: white;
+            background-color: #2BCB55;
+        }
+
+        .is_desktop {
+            display: block;
+        }
+
+        .is_mobile {
+            display: none;
+        }
+
+        .h-400 {
+            height: 400px;
+        }
+
+        .fsc-mobile {
+            font-size: calc(1.2rem + 1.5vw) !important;
+        }
+
+        .pc-l {
+            padding-left: 10%;
+        }
+
+        .pb-wrap {
+            position: relative;
+        }
+
+        .pb-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            background-image: url('img/picture/bg-pb.webp');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .pb-content {
+            position: relative;
+        }
+
+        .pl-content {
+            position: relative;
+        }
+
+        .pl-wrap {
+            position: relative;
+        }
+
+        .pl-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('img/picture/bg-profil.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .p-hydro-wrap {
+            position: relative;
+        }
+
+        .p-hydro-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('img/picture/bg-produk1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .p-primero-content {
+            position: relative;
+        }
+
+        .p-primero-wrap {
+            position: relative;
+        }
+
+        .p-primero-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('img/picture/bg-produk2.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .p-gorillax-content {
+            position: relative;
+        }
+
+        .p-gorillax-wrap {
+            position: relative;
+        }
+
+        .p-gorillax-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('img/picture/bg-produk3.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .p-hydro-content {
+            position: relative;
+        }
+
+        .join-wrap {
+            position: relative;
+        }
+
+        .join-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            background-image: url('img/picture/dom-fou-YRMWVcdyhmI-unsplash.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .join-content {
+            position: relative;
+        }
+
+        .bl-wrap {
+            position: relative;
+        }
+
+        .bl-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            background-image: url('img/picture/teacher-presenting-board.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .bl-content {
+            position: relative;
+        }
+
+        .rp-wrap {
+            position: relative;
+        }
+
+        .rp-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            background-image: url('img/picture/how-to-make-money-online.png');
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .rp-content {
+            position: relative;
+        }
+
+        .list-product {
+            list-style-image: url('img/icon/accept1.png');
+        }
+
+        @media screen and (max-width: 768px) {
+            .h-400 {
+                height: 150px;
+            }
+
+            .fsc-mobile {
+                font-size: calc(1rem + 0.9vw) !important;
+            }
+
+            .logo {
+                width: 35px;
+                height: auto;
+                padding-left: 10px;
+            }
+
+            .justify-md {
+                text-align: justify;
+            }
+
+            .is_desktop {
+                display: none;
+            }
+
+            .is_mobile {
+                display: block;
+            }
+
+            .btn-contact-me {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="">
+        <!-- Section 1 -->
+        <section class="bg-dark pb-wrap d-flex align-items-center" style="height: 100vh;">
+            <div class="container pb-content justify-content-center ">
+                <div class="row justify-content-center">
+                    <img src="img/icon/LOGO NATURALIFE BULAT.png" class="img-fluid" alt="logo naturalife"
+                        style="max-width: 100px;">
+                </div>
+                <div class="row text-white pt-3 justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <h1 class="fw-bold">Peluang Bisnis Anti Rugi Bersama NATURALIFE SCIENCE INT.</h3>
+                            <h3>Dengan Sistem & Hasil Paling Maksimal plus Reward Rp.10M Berulang</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <p class="fs-5">
+                            Yuk, siapa lagi yang mau Tubuh lebih sehat, lebih Awet Muda
+                            sekaligus bisa menghasilkan uang dari rumah ???
+                        </p>
+                        <button type="button" title="Join Now" class="btn btn-lg btnc-green px-5 col-md-6">YA SAYA
+                            MAU</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 txtc-dark">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <p class="fs-4">
+                            MEMPERKENALKAN
+                        </p>
+                        <p class="h1 fw-bold">
+                            BISNIS NATURALIFE SCIENCE INT.
+                        </p>
+                        <p class="h2 fw-bold">
+                            (PT BERKAH SUKSES TEKNOLOGI)
+                        </p>
+                    </div>
+                    <div class="col-md-9 text-center p-2">
+                        <img src="img/icon/logo-tiga.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5 pl-wrap">
+            <div class="container pl-content">
+                <div class="row text-white">
+                    <div class="col-md-12 text-center py-5">
+                        <h2 class="fw-bold">PROFIL, LEGALITAS & AWARD</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <div class="col-md-3 pb-3">
+                                <img src="img/picture/IMG_20220816_114808.webp" class="img-fluid rounded" alt=""
+                                    srcset="">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="row gy-1 text-uppercase">
+                                    <div class="col-md-4 col-5">
+                                        <strong>OWNER & CEO</strong>
+                                    </div>
+                                    <div class="col-md-8 col-7">
+                                        <strong>H. Muhammad Taufiq</strong>
+                                    </div>
+                                    <div class="col-md-4 col-5">
+                                        <strong>PRESTASI</strong>
+                                    </div>
+                                    <div class="col-md-8 col-7">
+                                        <strong>MASUK DALAM BUKU "25 Profil PRIBADI EMAS INDONESIA"
+                                            Figur Inspiratif, inovatif, visioner & pembawa perubahan</strong>
+                                    </div>
+                                    <div class="col-md-4 col-5">
+                                        <strong>ALAMAT</strong>
+                                    </div>
+                                    <div class="col-md-8 col-7">
+                                        <strong>Banjarmasin, kalsel indonesia</strong>
+                                    </div>
+                                    <div class="col-md-4 col-5">
+                                        <strong>NIB</strong>
+                                    </div>
+                                    <div class="col-md-8 col-7">
+                                        <strong>1224000721433</strong>
+                                    </div>
+                                    <div class="col-md-4 col-5">
+                                        <strong>SK MENKUMHAM</strong>
+                                    </div>
+                                    <div class="col-md-8 col-7">
+                                        <strong>ahu-0039468.ah.02.01.tahun 2020</strong>
+                                    </div>
+                                    <div class="col-md-4 col-5">
+                                        <strong>NPWP</strong>
+                                    </div>
+                                    <div class="col-md-8 col-7">
+                                        <strong>95.620.749.2-731.000</strong>
+                                    </div>
+                                    <div class="col-md-4 col-5">
+                                        <strong>SIUPL</strong>
+                                    </div>
+                                    <div class="col-md-8 col-7">
+                                        <strong>34564/sipt/12/2021</strong>
+                                    </div>
+                                    <div class="col-md-4 col-5">
+                                        <strong>AP2LI</strong>
+                                    </div>
+                                    <div class="col-md-8 col-7">
+                                        <strong>197/ap2li/dn/1/2022</strong>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row py-3">
+                                            <div class="col-md-4 text-center fw-bold" style="font-size: 10pt;">
+                                                <img src="img/picture/Asset 1AP2LI.webp" class="img-fluid" alt=""
+                                                    srcset="" style="height: 150px;">
+                                                <br><small>Sertifikat ap2li</small>
+                                            </div>
+                                            <div class="col-md-2 text-center fw-bold" style="font-size: 10pt;">
+                                                <img src="img/picture/Artboard 7Legalitas.webp" class="img-fluid" alt=""
+                                                    srcset="" style="height: 150px;">
+                                                <br><small>siupl</small>
+                                            </div>
+                                            <div class="col-md-3 text-center fw-bold" style="font-size: 10pt;">
+                                                <img src="img/picture/Asset 5award.webp" class="img-fluid" alt=""
+                                                    srcset="" style="height: 150px;">
+                                                <br><small>sertifikat <br>
+                                                    consumer choice <br>
+                                                    brand award</small>
+                                            </div>
+                                            <div class="col-md-3 text-center fw-bold" style="font-size: 10pt;">
+                                                <img src="img/picture/Asset 3award.webp" class="img-fluid" alt=""
+                                                    srcset="" style="height: 150px;">
+                                                <br><small>sertifikat <br>
+                                                    rekor prestasi <br>
+                                                    indonesia</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 py-3">
+                        <div class="row justify-content-center">
+                            <div class="col-md-5">
+                                <h3 class="fw-bold">VISI</h3>
+                                <p>Bersama sama mencetak keluarga pengusaha yang
+                                    Bertaqwa, Bahagia, Sehat & Sejahtera Jasmani serta Rohani</p>
+                            </div>
+                            <div class="col-md-5">
+                                <h3 class="fw-bold">MISI</h3>
+                                <p>Menjadikan Sedekah Harian sebagai Solusi berbagai Probelamtika Kehidupan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row text-center txtc-dark">
+                    <h2>PRODUK UNGGULAN</h2>
+                    <p>KEDAHSYATAN PRODUK NATURALIFE ADALAH BISA DIDEMOKAN. <br> MEMPERMUDAH PROSES SELLING DAN
+                        RECRUTING</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 p-hydro-wrap">
+            <div class="container p-hydro-content">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/picture/Group 158.png" class="img-fluid" alt="" srcset="">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <strong>Membantu Proses Penyembuhan Berbagai Macam Penyakit</strong>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-product">
+                                    <li>Sakit Kepala/Migrain</li>
+                                    <li>Maag Akut, Asma</li>
+                                    <li>Bronchitis, TBC / Batuk</li>
+                                    <li>Kencing Manis, Asam Urat</li>
+                                    <li>Meningkatkan Imunitas</li>
+                                    <li>Vitalitas, Kesburuan & Promil</li>
+                                    <li>Lumpuh (Stroke) & Kolesterol</li>
+                                    <li>Kegemukan, BAB Tidak Lancar</li>
+                                    <li>Leukimia, Rheumatik</li>
+                                    <li>Kanker, Osteoporosis</li>
+                                    <li>Anti Aging & Kecantikan</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-product">
+                                    <li>Penyakit Saluran Kencing</li>
+                                    <li>Ambeien/Wasir, Sembelit, Diare</li>
+                                    <li>Keputihan, Haid Tidak Teratur</li>
+                                    <li>Radang/Sakit Persendian</li>
+                                    <li>Sakit Gigi & Sariawan</li>
+                                    <li>Penyakit Kulit, Mata & Alergi</li>
+                                    <li>Jantung, Darah Tinggi/Rendah</li>
+                                    <li>Radang Otak, Batu Ginjal</li>
+                                    <li>Pegal Linu, Sariawan</li>
+                                    <li>Influenza, Rhinistis</li>
+                                    <li>Dll.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 p-primero-wrap">
+            <div class="container p-primero-content">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/picture/Group 159.png" class="img-fluid" alt="" srcset="">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-7 mb-3">
+                                <strong>Pupuk Oragnik Dengan Teknologi Nano, Effervescent & Phytohormon Bermanfaat
+                                    Untuk</strong>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-product">
+                                    <li>Menjadikan Tanah Lebih Gembur Kayak Unsur Hara</li>
+                                    <li>Melengkapi Kebutuhan Unsur Hara Mikro & Mengoptimalkan Kerja Unsur Hara Makro
+                                    </li>
+                                    <li>Memacu Pembentukan & Memperbesar Ukuran Bunga, Buah & Umbi</li>
+                                    <li>Meningkatkan Kualitas, Kuantitas Produksi Rasa Manis & Aroma Buah</li>
+                                    <li>Merangsang Pembuahan di Luar Musim</li>
+                                    <li>Mempercepat Masa Panen</li>
+                                    <li>Membuat Tanaman Tahan Segala Cuaca, Tahan Serangan Hama & Penyakit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 p-gorillax-wrap">
+            <div class="container p-gorillax-content">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/picture/Group 160.png" class="img-fluid" alt="" srcset="">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <strong>Terbuat dari Ramuan Herbal Alami yang Berfungsi Untuk</strong>
+                            </div>
+                            <div class="col-md-6">
+                                <strong>Bagi Pria</strong>
+                                <ul class="list-product pt-3">
+                                    <li>Meningkatkan Kemampuan Ereksi</li>
+                                    <li>Meningkatkan Kesuburan & Produksi Sperma</li>
+                                    <li>Meningkatkan Gairah Seksual/Libido</li>
+                                    <li>Meningkatkan Pertumbuhan Hormon Testosteron</li>
+                                    <li>Mencegah & Mengatasi Andropuase</li>
+                                    <li>Mengatasi Radang Sendi, Prostat dan Ejakulasi Dini</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <strong>Bagi Wanita</strong>
+                                <ul class="list-product pt-3">
+                                    <li>Membantu Mengatasi PMS (Gangguan menjelang menstruasi)</li>
+                                    <li>Menjaga kesuburan dan kesehatan organ reproduksi</li>
+                                    <li>Membantu Mengatasi Gejala/Pasca Menopause</li>
+                                    <li>Mengatasi Gangguan Seksual dan Meningkatkan Libido</li>
+                                    <li>Meningkatkan Sensitifitas & Mempermiudah Orgasme</li>
+                                    <li>Prekursor/Pembentukan Hormon Seksual (DHEA/HH)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center text-center txtc-dark">
+                    <h2>PELUANG BISNIS</h2>
+                    <p>Berikut video singkat menjelaskan potensi penghasilan anda dengan menjalankan bisnis <br>
+                        NATURALIFE
+                        SCIENCE INT. bersama kami</p>
+                    <div class="col-md-5">
+                        <iframe loading="lazy" src="https://www.youtube.com/embed/fiYPwB0hq_k" class="w-100 rounded"
+                            title="Testimoni 1" name="framed-video" style="height: 300px;">
+                        </iframe>
+                    </div>
+                    <div class="col-md-5">
+                        <iframe loading="lazy" src="https://www.youtube.com/embed/fiYPwB0hq_k" class="w-100 rounded"
+                            title="Testimoni 1" name="framed-video" style="height: 300px;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/Kunci Kesejahteraan/Slide6.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide8.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide8.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide10.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide13.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide14.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide15.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide16.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide17.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide20.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide22.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide24.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide26.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide27.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide28.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide29.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide30.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide31.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Kunci Kesejahteraan/Slide32.PNG"
+                                        class="d-block w-100 img-fluid rounded" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 px-2">
+            <div class="container">
+                <h1 class="text-center mb-5 txtc-dark fw-bold">SEKOLAH BISNIS 10 M AKADEMI</h1> <br>
+                <div class="col-md-12 row g-3 d-flex align-items-center mt-5">
+                    <div class="col-md-6 txtc-dark">
+                        <h1 class="fw-bold fsc-2">KELAS <br> DIGITAL MARKETING</h1>
+                        <h1 class="fsc-1 fwc-600">LANGSUNG CUAN !</h1>
+                        <h3>Mau langsung merasakan cuan dari internet ?</h3>
+                        <p class="fs-4 justify-md">10M Akademi solusi bagi anda yang ingin belajar Digital Marketing
+                            langsung cuan
+                            dengan Real Project</p>
+                        <button type="button" title="Join Now" class="btn btn-lg btnc-green px-5 col-md-6">JOIN
+                            NOW</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/picture/kindpng_25803941.png" class="img img-fluid" alt="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="py-5 px-2 bgc-dark">
+            <div class="container">
+                <div class="is_mobile">
+                    <div class="col-md-12">
+                        <img src="img/icon/FormatFactoryLOGO-PUTIH-200x109.png" alt="Gambar 10 M Akademi"
+                            class="img img-fluid p-3 float-start">
+                        <div class="text-white justify-md">
+                            <p class="fs-5">Kelas yang bisa membantu pemula sekalipun menjadi digital marketer yang
+                                profitable. Goal Kami setelah mengikuti program ini Anda langsung Cuan di bulan pertama
+                            </p>
+                            <p class="fs-5">10 M Akademi memiliki kelas Offline dan Online yang memiliki Visi setiap
+                                membernya mampu menghasilkan Sejuta Sehari setelah 3 bulan bergabung dan mencapai income
+                                10
+                                M dari bisnis online
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="is_desktop">
+                    <div class="col-md-12 row">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <img src="img/icon/LOGO-PUTIH-768x420.png" alt="Gambar 10 M Akademi"
+                                class="img img-fluid p-3" style="max-width: 250px;">
+                        </div>
+                        <div class="col-md-8 text-white justify-md">
+                            <p class="fs-5">Kelas yang bisa membantu pemula sekalipun menjadi digital marketer yang
+                                profitable. Goal Kami setelah mengikuti program ini Anda langsung Cuan di bulan pertama
+                            </p>
+                            <p class="fs-5">10 M Akademi memiliki kelas Offline dan Online yang memiliki Visi setiap
+                                membernya mampu menghasilkan Sejuta Sehari setelah 3 bulan bergabung dan mencapai income
+                                10
+                                M dari bisnis online
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 3 -->
+        <section class="pb-5">
+            <div class="container txtc-dark">
+                <div class="row col-md-12 d-flex justify-content-center">
+                    <div class="row col-md-12 gy-5">
+                        <h2 class="text-center fw-bold">MATERI DIGITAL MARKETING YANG ANDA DAPATKAN</h2>
+                        <div class="col-md-4">
+                            <img src="img/picture/fb-marketing.webp" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">FB MARKETING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/wa-marketing.webp" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">WA MARKETING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/ig-marketing.webp" class="img img-fluid rounded" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">IG MARKETING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/yt-marketing.webp" class="img img-fluid rounded" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">YOUTUBE MARKETING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/tiktok-marketing.webp" class="img img-fluid rounded w-100"
+                                alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">TIKTOK MARKETING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/google-ads.webp" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">MARKETPLACE</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/google-ads.webp" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">GOOGLE ADS</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/personal-brand.webp" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">PERSONAL BRANDING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/list-build.webp" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">LIST BUILDING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/sales-funel.webp" class="img img-fluid rounded" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">SALES FUNNEL</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/copywriting.webp" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">COPYWRITING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/closing.webp" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">JAGO CLOSING</p>
+                        </div>
+                    </div>
+                    <div class="row col-md-12 gy-5">
+                        <h2 class="text-center fw-bold">MATERI PENGEMBANGAN DIRI YANG ANDA DAPATKAN</h2>
+                        <div class="col-md-4">
+                            <img src="img/picture/Mask Group 25.png" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">PUBLIC SPEAKING</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/Mask Group 26.png" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">PERSONALITY PLUS</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/Mask Group 27.png" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">MASTER SELLER</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/Mask Group 28.png" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">MASTER LEADER</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/Mask Group 29.png" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">TRAINING OF TRAINER</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/picture/Mask Group 30.png" class="img img-fluid rounded w-100" alt="news-1">
+                            <p class="fs-4 fw-bold text-center pt-3">SPIRITUAL MAGNET REZEKI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 4 -->
+        <section class="py-5 px-2 bgc-dark text-white">
+            <div class="container d-flex justify-content-center">
+                <div class="row col-md-11 g-5">
+                    <div class="col-md-4">
+                        <img src="img/picture/kelas-offline.webp" class="img img-fluid rounded w-100" alt="img 1">
+                        <p class="pt-3">
+                            <span class="fs-4">KELAS</span><br>
+                            <span class="fs-4 fw-bold">OFFLINE</span><br>
+                            <span class="">Hotel Ballroom & Base Camp <br> Seminggu 3x</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/picture/kelas-online.webp" class="img img-fluid rounded w-100" alt="img 1">
+                        <p class="pt-3">
+                            <span class="fs-4">KELAS</span><br>
+                            <span class="fs-4 fw-bold">ONLINE</span><br>
+                            <span class="">Video Tutorial di Member Area <br> Dimana saja & Kapan saja</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/picture/kelas-zoom.webp" class="img img-fluid rounded w-100" alt="img 1">
+                        <p class="pt-3">
+                            <span class="fs-4">KELAS</span><br>
+                            <span class="fs-4 fw-bold">ZOOM</span><br>
+                            <span class="">ZOOMINAR Bersama para mentor <br> Seminggu sekali</span>
+                        </p>
+                    </div>
+                    <div class="pt-5 row col-md-12 d-flex align-items-center justify-content-center">
+                        <div class="col-3 col-md-5">
+                            <img src="img/icon/whatsapp(2).png" class="img img-fluid float-end" alt="whatsapp"
+                                style="max-width: 50px;">
+                        </div>
+                        <div class="col-9 col-md-6">
+                            <button type="button" class="btn btnc-green px-5 float-start btn-contact-me">HUBUNGI
+                                KAMI</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="harga" class="bg-light py-5 txtc-dark">
+            <div class="container px-5">
+                <div id="head-ahli" class="col-12 text-center">
+                    <p class="fw-bold text-dark-green font-head" style="font-weight: 900; font-size: 30pt;">AYO SEGERA
+                        BERGABUNG!
+                    </p>
+                    <p class="">Nikmati 10 macam Bonusnya HARIAN, BULANAN hingga TAHUNAN</p>
+                    <p>Daftar Hari Ini FREE 4 Landing Page/Web Reflika seharga 4 juta rupiah, Grup Konsultasi
+                        <br> Via WA dan
+                        Telegram, Konten Promosi (Gambar, Video dan Script) siap pakai.</p>
+                </div>
+                <div class="col-md-12 row d-flex justify-content-center pt-3 align-items-end">
+                    <div class="col-md-3 text-center pt-3">
+                        <p class="fw-bold h3 txtc-darked">KONSUMEN</p>
+                        <img src="img/icon/employee(1).png" class="img-fluid icon-100 my-3">
+                        <p>
+                            <sup class="fw-bold h6 txtc-darked">Rp.</sup>
+                            <span class="fw-bold h4 txtc-darked">250.000</span><br>
+                            1 Box @ 10 Sachets
+                        </p>
+                        <a href="" class="btn btnc-green rounded-pill text-white fw-bold px-5">PESAN</a>
+                    </div>
+                    <div class="col-md-3 text-center pt-3">
+                        <p class="fw-bold h3 txtc-darked">AGEN STARTER</p>
+                        <img src="img/icon/businessman.png" class="img-fluid icon-100 my-3">
+                        <p>
+                            <sup class="fw-bold h6 txtc-darked">Rp.</sup>
+                            <span class="fw-bold h4 txtc-darked">800.000</span><br>
+                            5 Box @ 10 Sachets
+                        </p>
+                        <a href="" class="btn btnc-green rounded-pill text-white fw-bold px-5">PESAN</a>
+                    </div>
+                    <div class="col-md-3 text-center pt-3">
+                        <p class="fw-bold h3 txtc-darked">AGEN FASTER</p>
+                        <img src="img/icon/manager.png" class="img-fluid icon-100 my-3">
+                        <p>
+                            <sup class="fw-bold h6 txtc-darked">Rp.</sup>
+                            <span class="fw-bold h4 txtc-darked">4.800.000</span><br>
+                            30 Box @ 10 Sachets
+                        </p>
+                        <a href="" class="btn btnc-green rounded-pill text-white fw-bold px-5">PESAN</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="harga" class="py-5 txtc-dark">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <hr style="border-top: 3px dashed #272727; background-color: transparent;">
+                    <div id="head-ahli" class="col-12 text-center">
+                        <p class="fw-bold text-dark-green font-head" style="font-weight: 900; font-size: 30pt;">6 ALASAN
+                            KENAPA ANDA HARUS BERGABUNG SEKARANG
+                        </p>
+                    </div>
+                    <div class="col-md-10 row d-flex justify-content-center pt-3 align-items-end">
+                        <div class="col-md-4 text-center pt-3">
+                            <img src="img/icon/package.png" class="img-fluid icon-100 my-3">
+                            <p>
+                                <strong class="fw-bold h4 txtc-darked">PRODUK PROFITABLE</strong><br>
+                                <span class="">Anda tidak hanya mendapatkan produk berkualitas tapi juga profitable
+                                    dengan pasar yang
+                                    sangat luas</span>
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center pt-3">
+                            <img src="img/icon/income.png" class="img-fluid icon-100 my-3">
+                            <p>
+                                <strong class="fw-bold h4 txtc-darked">INCOME FANTASTIS</strong><br>
+                                <span class="">Bisnis Plan terbaik saat ini, simple mudah dipahami, unik namun sangat
+                                    powerful untuk meledakan income</span>
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center pt-3">
+                            <img src="img/icon/target.png" class="img-fluid icon-100 my-3">
+                            <p>
+                                <strong class="fw-bold h4 txtc-darked">GROUP SUPPORT</strong><br>
+                                <span class="">Anda tidak sendiri tapi akan dibantu oleh mentor dan tim support yang
+                                    sudah berpengalaman</span>
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center pt-3">
+                            <img src="img/icon/LOGO-HITAM-1536x840.png" class="img-fluid icon-100 my-3">
+                            <p>
+                                <strong class="fw-bold h4 txtc-darked">SUPPORT SYSTEM</strong><br>
+                                <span class="">Sekolah bisnis 10M Akademi yang akan membimbing anda secara online dan
+                                    offline hingga sukses</span>
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center pt-3">
+                            <img src="img/icon/loudspeaker.png" class="img-fluid icon-100 my-3">
+                            <p>
+                                <strong class="fw-bold h4 txtc-darked">KONTEN PROMOSI</strong><br>
+                                <span class="">Kami sudah siapkan konten untuk membantu anda promosi sehingga anda
+                                    tinggal Copy & Paste aja</span>
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center pt-3">
+                            <img src="img/icon/world-wide-web.png" class="img-fluid icon-100 my-3">
+                            <p>
+                                <strong class="fw-bold h4 txtc-darked">WEB SUPPORT</strong><br>
+                                <span class="">Kami siapkan Web Support <br> untuk membantu anda <br> promosi
+                                    online</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="" class="py-5 txtc-dark">
+            <div class="container px-5">
+                <div class="row justify-content-center g-3">
+                    <hr style="border-top: 3px dashed #272727; background-color: transparent;">
+                    <div id="head-ahli" class="col-12 text-center">
+                        <p class="fw-bold text-dark-green font-head" style="font-weight: 900; font-size: 30pt;">
+                            SCREENSHOT BONUS HARIAN
+                        </p>
+                        <p>Inilah Testimoni Langsung dari para Mitra kami</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (1).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (2).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (3).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (4).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (5).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (6).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (7).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (8).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (9).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (10).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (11).png" class="w-75 img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/ss/ss (12).png" class="w-75 img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="" class="pb-5 txtc-dark">
+            <div class="container px-5">
+                <div class="row justify-content-center g-3">
+                    <div id="head-ahli" class="col-12 text-center">
+                        <p class="fw-bold text-dark-green font-head" style="font-weight: 900; font-size: 30pt;">
+                            PARA PERAIH REWARD
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/reward/MD12204080025.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/reward/MD12204080026.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/reward/MD12204080027.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/reward/MD12204080028.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/reward/MD12204080025.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/reward/MD12204080026.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/reward/MD12204080027.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="img/reward/MD12204080028.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="" class="pb-5 txtc-dark">
+            <div class="container px-5">
+                <div class="row justify-content-center g-3">
+                    <div id="head-ahli" class="col-12 text-center">
+                        <p class="fw-bold text-dark-green font-head" style="font-weight: 900; font-size: 30pt;">
+                            KEGIATAN
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row g-3">
+                            <div class="col-md-12">
+                                <img src="img/picture/MD14021320019122072613423401111.png"
+                                    class="w-100 img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-12">
+                                <img src="img/picture/WhatsApp Image 2022-08-30 at 13.19.52.png"
+                                    class="w-100 img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row g-3">
+                            <div class="col-md-12">
+                                <img src="img/picture/WhatsApp Image 2022-08-28 at 14.32.11.png"
+                                    class="w-100 img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-12">
+                                <img src="img/picture/WhatsApp Image 2022-08-28 at 20.17.32.png"
+                                    class="w-100 img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row g-3">
+                            <div class="col-md-12">
+                                <img src="img/picture/MD1402131971602207180828020111.png"
+                                    class="w-100 img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-12">
+                                <img src="img/picture/WhatsApp Image 2022-09-03 at 10.07.02.png"
+                                    class="w-100 img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <a href="" class="btn btnc-green text-white fw-bold px-5">SELENGKAPNYA</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5">
+            <div class="container">
+                <hr style="border-top: 3px dashed #272727; background-color: transparent;">
+                <div class="row justify-content-center txtc-dark">
+                    <div class="col-md-7 text-center">
+                        <h2 class="txtc-dark fw-bold">TUNGGU APA LAGI?</h2>
+                        <p>Wujudkan IMPIAN Anda Bersama NATURALIFE SCIENCE INT. sekarang juga!</p>
+                        <p>
+                            <strong>Bingung Mau bisnis apa?</strong> Sudah kami tunjukkan peluang Bisnis NATURALIFE
+                            Science INT.
+                            <br> <br>
+                            <strong>Bingung Cara Memulainya?</strong> Kami siapkan Panduan dan alat tempur Bisnis
+                            NATURALIFE Science INT.
+                            <br> <br>
+                            <strong>Takut kalau tidak ngerti?</strong> Kami bimbing sampai paham dan mengerti, sampai
+                            anda Mandiri di
+                            Bisnis NATURALIFE Science INT.
+                        </p>
+                        <p>Jadi Rasanya… Semua yang Anda butuhkan untuk berhasil dibisnis ini sudah kami sediakan. Tidak
+                            ada lagi alasan tidak bisa, tidak ada lagi alasan modalnya nggak ada. Yang Anda butuhkan
+                            sekarang adalah KEBERANIAN untuk memulai. </p>
+                        <p>
+                            <strong>Siap & Beranikah ANDA untuk memulai bisnis NATURALIFE Science INT. Dari PT BERKAH
+                                SUKSES
+                                TEKNOLOGI bersama kami, Berjuang mewujudkan impian-impian Anda & Keluarga ?</strong>
+                            <br><br>
+                            Jika Anda Butuh Bantuan, Ataupun ada Hal-hal yg ingin ditanyakan Jangan Ragu untuk
+                            menghubungi kami, dengan senang hati akan kami bantu…</p>
+                        <img loading="lazy" src="img/picture/profile-img.jpg"
+                            class="img-fluid rounded-circle img-thumbnail" style="width:100px; height:100px">
+                        <p class="h4 text-muted fw-bold pt-2">Joko Soerojo</p>
+                    </div>
+                    <div class="row col-md-12 d-flex align-items-center justify-content-center">
+                        <div class="col-2 col-md-4">
+                            <img src="img/icon/whatsapp(2).png" class="img img-fluid float-end" alt="whatsapp"
+                                style="max-width: 50px;">
+                        </div>
+                        <div class="col-9 col-md-6">
+                            <button type="button"
+                                class="btn btnc-green px-3 float-start btn-contact-me fw-bold">KONSULTASI
+                                SEKARANG</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="bgc-dark text-center text-white py-3">
+            NATURALIFE SCIENCE INTERNATIONAL 2022
+        </div>
+    </footer>
+</body>
+
+</html>
